@@ -25,4 +25,4 @@ def onesGroups(grid, queries):
         count = sum(1 for group in groups if len(group) == q)
         res.append(count)
 
-    return 
+    return res
